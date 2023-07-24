@@ -1,0 +1,212 @@
+/* Estilização do header*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10vw; 
+}
+
+nav{
+  width: 23vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 35px;
+}
+
+.cabecalho {
+  
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Mukta', sans-serif;
+}
+
+.cabecalho:hover {
+  color: #ffe423;
+}
+
+/* ESTILIZAÇÃO DA MAIN*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+form {
+  border: 1px solid #eaeaea;
+  background-color: #eaeaea;
+  border-radius: 70px 0 70px 0;
+  width: 27vw;
+  height: 32vw;
+  padding: 10px;
+  margin-right: 10vw;
+  box-shadow: 0 1rem 1rem rgba(41, 41, 41, 0.5), -1px -1px 2px #eaeaea, 1px 1px 2px #eaeaea;
+}
+
+form label {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 19px;
+  margin-left: 13px;
+  font-family: 'Mukta', sans-serif;
+
+}
+
+.form1,
+.form2 {
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-left: 13px;
+
+}
+
+.form1 {
+  width: 85%;
+  height: 4%;
+}
+
+.form2 {
+  width: 70%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  font-size: 23px;
+
+}
+
+
+.formulario2 {
+  display: flex;
+}
+
+
+.button1 {
+  width: 10vw;
+  height: 2.7vw;
+  margin-left: 36px;
+  font-size: 23px;
+  border-radius: 3px;
+  background-color: black;
+  color: #ccc;
+  margin-top: 14px;
+
+}
+
+.button2 {
+  width: 8.4vw;
+  height: 2.7vw;
+  margin-left: 20px;
+  font-size: 22px;
+  border-radius: 3px;
+  background-color: black;
+  color: #ccc;
+
+}
+
+
+
+
+
+
+.card {
+  width: 27vw;
+  height: 32%;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(to top, #fbed87 0%, #ffe423 100%);
+  box-shadow: 0 1rem 2rem rgba(41, 41, 41, 0.5), -1px -1px 2px #aaa, 1px 1px 2px #555;
+  backdrop-filter: blur(0.8rem);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+
+
+}
+
+.card-clone {
+  background: transparent;
+  border: none;
+  color: #1e1e1e;
+  ;
+  font-size: 20px;
+
+
+
+
+}
+
+.card-clone::-webkit-input-placeholder {
+  color: #313131;
+  ;
+}
+
+
+
+#numeroCard {
+  margin: 5% 40% 0 0;
+
+}
+
+.test {
+  margin: 3% 40% 0 0;
+}
+
+
+#nomeCard {
+  margin: 3% 40% 0 0;
+}
+
+.chip {
+  display: flex;
+  margin-left: 80%;
+}
+
+#card-chip img {
+  width: 4rem;
+}
+
+.chip2 {
+  margin-right: 80%;
+  width: 55px;
+}
+
+.test {
+  display: flex;
+
+}
+
+
+.ladoDireito {
+  display: flex;
+  flex-direction: column;
+}
+
+#mensagem{
+  margin-top: 3vw;
+  font-size: 19px;
+  font-family: 'Mukta', sans-serif;
+  border: 1px solid none;
+  width: 25vw;
+  text-align: center;
+  margin-left: 3vw;
+  
+}
+
+.tudo{
+  display: flex;
+}
+
